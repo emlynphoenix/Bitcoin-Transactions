@@ -49,18 +49,15 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- TODO: add a screenshot of the bot/ticket system in action to images/screenshot.png -->
-<!-- ![Bitcoin-Transactions Screenshot](images/screenshot.png) -->
+
 
 Bitcoin-Transactions is a Discord bot that lets server members open a ticket to request a Bitcoin transaction, with details stored and tracked via a database.
-
-<!-- TODO: replace with 2-3 real sentences on what problem this solves / why you built it -->
+Allows users to seamlessly and automatically transfer funds between addresses. Money is only transferred/released after both users have confirmed using buttons and prompts. 
+This project was built to try and find a way of connecting Discord and transferring crypto currency.
 
 **Key features:**
-<!-- TODO: keep the ones that are true, delete the rest, add anything missing -->
 - 🎟️ Ticket system for submitting transaction requests
 - 💾 MySQL-backed request tracking
 - 🔐 Restricted/admin-only approval commands
@@ -83,7 +80,6 @@ Bitcoin-Transactions is a Discord bot that lets server members open a ticket to 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running, follow these steps.
@@ -122,18 +118,15 @@ To get a local copy up and running, follow these steps.
    python main.py
    ```
 
-<!-- TODO: correct the exact install/run commands, schema filename, and any extra env variables (e.g. wallet/API keys) to match your actual setup -->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-<!-- TODO: replace with your real prefix/commands -->
 ```
-!ticket        Open a new transaction request ticket
-!close         Close the current ticket
-!history       View your past requests
+$close         Close the current ticket
+
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,14 +136,13 @@ To get a local copy up and running, follow these steps.
 
 <!-- TODO: real planned features, or delete this section if not needed -->
 - [ ] Slash command support
-- [ ] Automated transaction verification
+- [ ] Incorporate more cryptocurrency types (LTC, USDT)
 - [ ] Admin dashboard
 
 See the [open issues](https://github.com/emlynphoenix/Bitcoin-Transactions/issues) for a full list of proposed features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -160,13 +152,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Emlyn - <!-- TODO: add your email / Discord / contact method or delete this line -->
+Emlyn - emlynphoenix1@gmail.com
 
 Project Link: [https://github.com/emlynphoenix/Bitcoin-Transactions](https://github.com/emlynphoenix/Bitcoin-Transactions)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/emlynphoenix/Bitcoin-Transactions.svg?style=for-the-badge
 [contributors-url]: https://github.com/emlynphoenix/Bitcoin-Transactions/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/emlynphoenix/Bitcoin-Transactions.svg?style=for-the-badge
